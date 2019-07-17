@@ -33,7 +33,11 @@ exports.update = async (req, res) => {
 
   if (error) return res.status(400).send(error.details[0].message)
 
-  const post = await Blog.findByIdAndUpdate(req.params.id, { ...req.body })
+  const post = await Blog.findByIdAndUpdate(
+    req.params.id,
+    { ...req.body },
+    { new: true }
+  )
 
   if (!post)
     return res.status(404).send('The post with the given ID was not found.')
