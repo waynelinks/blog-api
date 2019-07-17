@@ -6,5 +6,6 @@ const app = express()
 
 require('./startup/logging')(winston)
 require("./startup/cors")(app);
+require("./startup/db")(winston, config);
 
 module.exports = { app, config, winston }
