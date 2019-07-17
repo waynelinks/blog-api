@@ -12,3 +12,5 @@ server.listen(port, (err) => {
 
   winston.info(`> App running on port ${port}`)
 })
+
+module.exports = server
