@@ -8,6 +8,7 @@ module.exports = (app, express) => {
   app.use(morgan('dev'))
 
   require('../components/blog')(app)
+  require('../components/users')(app)
 
   app.use(error)
 }

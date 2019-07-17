@@ -821,3 +821,7 @@
 {"level":"info","message":"> Connected to mongodb://127.0.0.1/blog...","timestamp":"2019-07-17T23:37:28.188Z"}
 {"level":"info","message":"> App running on port 3001","timestamp":"2019-07-17T23:37:44.859Z"}
 {"level":"info","message":"> Connected to mongodb://127.0.0.1/blog...","timestamp":"2019-07-17T23:37:44.889Z"}
+{"level":"info","message":"> App running on port 3001","timestamp":"2019-07-17T23:41:31.779Z"}
+{"level":"info","message":"> Connected to mongodb://127.0.0.1/blog...","timestamp":"2019-07-17T23:41:31.814Z"}
+{"level":"info","message":"> App running on port 3001","timestamp":"2019-07-17T23:41:53.695Z"}
+{"level":"info","message":"> Connected to mongodb://127.0.0.1/blog...","timestamp":"2019-07-17T23:41:53.721Z"}
