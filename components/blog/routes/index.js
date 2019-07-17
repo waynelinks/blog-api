@@ -1,5 +1,6 @@
 const express = require('express')
 const CTRL = require('../controllers')
+const validateObjectID = require('../../../middleware/validateObjectID')
 
 const router = express.Router()
 
@@ -10,7 +11,7 @@ router
 
 router
   .route('/:id')
-  .get(CTRL.getSingle)
+  .get(validateObjectID, CTRL.getSingle)
   .patch(CTRL.update)
   .delete(CTRL.remove)
 
