@@ -1,21 +1,19 @@
-exports.getAll = (req, res) => {
-  res.send('getAll')
+exports.getAll = async (req, res) => {
+  // res.send(blogs)
 }
 
-exports.getSingle = (req, res) => {
+exports.getSingle = async (req, res) => {
   res.send('getSingle')
 }
 
-exports.create = (req, res) => {
+exports.create = async (req, res) => {
   res.send('create')
 }
 
-exports.update = (req, res) => {
+exports.update = async (req, res) => {
   res.send('update')
 }
 
-exports.remove = (req, res) => {
+exports.remove = async (req, res) => {
   res.send('remove')
 }
-
-
