@@ -1,0 +1,16 @@
+{
+  "name": "blog-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:waynelinks/blog-api.git",
+  "author": "Wayne Links <wayne.links@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon server"
+  },
+  "dependencies": {
+    "config": "^3.2.0",
+    "express": "^4.17.1",
+    "winston": "2.4.0"
+  }
+}
