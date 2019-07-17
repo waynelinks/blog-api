@@ -36,3 +36,5 @@
 {"level":"info","message":"Connected to mongodb://127.0.0.1/blog...","timestamp":"2019-07-17T03:38:04.521Z"}
 {"level":"info","message":"> App running on port 3001","timestamp":"2019-07-17T03:38:19.407Z"}
 {"level":"info","message":"> Connected to mongodb://127.0.0.1/blog...","timestamp":"2019-07-17T03:38:19.435Z"}
+{"level":"info","message":"> App running on port 3001","timestamp":"2019-07-17T03:47:17.142Z"}
+{"level":"info","message":"> Connected to mongodb://127.0.0.1/blog...","timestamp":"2019-07-17T03:47:17.167Z"}
