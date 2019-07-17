@@ -1,2 +1,2 @@
-# blog-api
-BackendAPI - created with Node Express and MongoDB
+# Blog API
+Backend - created with Node Express and MongoDB
