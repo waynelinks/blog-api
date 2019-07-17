@@ -7,8 +7,12 @@ exports.getAll = async (req, res) => {
   res.send(posts)
 }
 
-exports.getSingle = async (req, res) => {
-  res.send('getSingle')
+exports.getSingle = validateObjectID, async (req, res) => {
+  const post = await Blog.findById(req.params.id).select("-__v")
+
+  if (!post) return res.status(404).send('The post with the given ID was not found.')
+
+  res.send(post)
 }
 
 exports.create = async (req, res) => {
