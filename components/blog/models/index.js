@@ -16,14 +16,6 @@ const blogSchema = new mongoose.Schema(
     content: {
       type: String,
       required: true
-    },
-    published: {
-      type: Boolean,
-      default: false
-    },
-    draft: {
-      type: Boolean,
-      default: true
     }
     // author: {
     //   type: mongoose.Schema.Types.ObjectId,
