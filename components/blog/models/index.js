@@ -20,6 +20,10 @@ const blogSchema = new mongoose.Schema(
     published: {
       type: Boolean,
       default: false
+    },
+    draft: {
+      type: Boolean,
+      default: true
     }
     // author: {
     //   type: mongoose.Schema.Types.ObjectId,
