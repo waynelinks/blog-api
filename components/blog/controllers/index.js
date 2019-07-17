@@ -29,13 +29,23 @@ exports.create = async (req, res) => {
 }
 
 exports.update = async (req, res) => {
-  res.send('update')
+  const { error } = validate(req.body)
+
+  if (error) return res.status(400).send(error.details[0].message)
+
+  const post = await Blog.findByIdAndUpdate(req.params.id, { ...req.body })
+
+  if (!post)
+    return res.status(404).send('The post with the given ID was not found.')
+
+  res.send(post)
 }
 
 exports.remove = async (req, res) => {
   const post = await Blog.findByIdAndRemove(req.params.id)
 
-  if (!post) return res.status(404).send('The post with the given ID was not found. ')
+  if (!post)
+    return res.status(404).send('The post with the given ID was not found. ')
 
   res.send(post)
 }
