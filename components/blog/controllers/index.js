@@ -1,7 +1,10 @@
-
+const validateObjectID = require('../../../middleware/validateObjectID')
+const {Blog, validate} = require('../models')
 
 exports.getAll = async (req, res) => {
-  // res.send(blogs)
+  const posts = await Blog.find()
+
+  res.send(posts)
 }
 
 exports.getSingle = async (req, res) => {
