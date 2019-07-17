@@ -1,4 +1,7 @@
 {
   "NAME": "BlogAPI - development",
-  "PORT": 3001
+  "PORT": 3001,
+  "DB": {
+    "host": "mongodb://127.0.0.1/blog"
+  }
 }

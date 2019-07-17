@@ -22,3 +22,17 @@
 {"level":"info","message":"> App running on port 3001","timestamp":"2019-07-17T03:35:19.674Z"}
 {"level":"info","message":"> App running on port 3001","timestamp":"2019-07-17T03:35:22.508Z"}
 {"level":"info","message":"> App running on port 3001","timestamp":"2019-07-17T03:35:26.421Z"}
+{"level":"info","message":"> App running on port 3001","timestamp":"2019-07-17T03:37:31.218Z"}
+{"level":"info","message":"> App running on port 3001","timestamp":"2019-07-17T03:37:33.770Z"}
+{"level":"info","message":"> App running on port 3001","timestamp":"2019-07-17T03:37:35.049Z"}
+{"level":"info","message":"> App running on port 3001","timestamp":"2019-07-17T03:37:39.193Z"}
+{"level":"info","message":"> App running on port 3001","timestamp":"2019-07-17T03:37:40.725Z"}
+{"level":"info","message":"Connected to mongodb://127.0.0.1...","timestamp":"2019-07-17T03:37:40.779Z"}
+{"level":"info","message":"> App running on port 3001","timestamp":"2019-07-17T03:37:56.458Z"}
+{"level":"info","message":"Connected to mongodb://127.0.0.1/...","timestamp":"2019-07-17T03:37:56.489Z"}
+{"level":"info","message":"> App running on port 3001","timestamp":"2019-07-17T03:37:58.715Z"}
+{"level":"info","message":"Connected to mongodb://127.0.0.1/blog...","timestamp":"2019-07-17T03:37:58.742Z"}
+{"level":"info","message":"> App running on port 3001","timestamp":"2019-07-17T03:38:04.497Z"}
+{"level":"info","message":"Connected to mongodb://127.0.0.1/blog...","timestamp":"2019-07-17T03:38:04.521Z"}
+{"level":"info","message":"> App running on port 3001","timestamp":"2019-07-17T03:38:19.407Z"}
+{"level":"info","message":"> Connected to mongodb://127.0.0.1/blog...","timestamp":"2019-07-17T03:38:19.435Z"}
