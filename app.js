@@ -6,7 +6,7 @@ const app = express()
 
 require('./startup/logging')(winston)
 require('./startup/cors')(app)
-require('./startup/components.js')(app, express)
+require('./startup/components')(app, express)
 require('./startup/db')(winston, config)
 require('./startup/config')(config)
 require('./startup/validation')()
