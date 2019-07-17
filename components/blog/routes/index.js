@@ -12,7 +12,7 @@ router
 router
   .route('/:id')
   .get(validateObjectID, CTRL.getSingle)
-  .patch(CTRL.update)
-  .delete(CTRL.remove)
+  .patch(validateObjectID, CTRL.update)
+  .delete(validateObjectID, CTRL.remove)
 
 module.exports = router

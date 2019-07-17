@@ -33,5 +33,9 @@ exports.update = async (req, res) => {
 }
 
 exports.remove = async (req, res) => {
-  res.send('remove')
+  const post = await Blog.findByIdAndRemove(req.params.id)
+
+  if (!post) return res.status(404).send('The post with the given ID was not found. ')
+
+  res.send(post)
 }
