@@ -16,11 +16,11 @@ const blogSchema = new mongoose.Schema(
     content: {
       type: String,
       required: true
+    },
+    author: {
+      type: mongoose.Schema.Types.ObjectId,
+      required: true,
     }
-    // author: {
-    //   type: mongoose.Schema.Types.ObjectId,
-    //   required: true,
-    // }
   },
   {
     timestamps: true
