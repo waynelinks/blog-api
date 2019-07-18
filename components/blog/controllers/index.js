@@ -2,8 +2,8 @@ const { Blog, validate } = require('../models')
 
 exports.getAll = async (req, res) => {
   const posts = await Blog.find()
-  .populate('author', 'name')  
-  .select('title author')
+    .populate('author', 'name -_id')
+    .select('title author -_id')
 
   res.send(posts)
 }
