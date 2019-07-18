@@ -2,6 +2,8 @@ const { Blog, validate } = require('../models')
 
 exports.getAll = async (req, res) => {
   const posts = await Blog.find()
+  .populate('author', 'name')  
+  .select('title author')
 
   res.send(posts)
 }
@@ -20,7 +22,8 @@ exports.create = async (req, res) => {
   if (error) return res.status(400).send(error.details[0].message)
 
   let post = new Blog({
-    ...req.body
+    ...req.body,
+    author: req.user._id
   })
 
   post = await post.save()

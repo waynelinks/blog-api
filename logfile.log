@@ -1073,3 +1073,109 @@
 {"message":"_ is not defined","stack":"ReferenceError: _ is not defined\n    at exports.create (/home/wayne/Dev/liveCode/blog-api/components/users/controllers/index.js:28:42)\n    at processTicksAndRejections (internal/process/task_queues.js:86:5)","level":"error","timestamp":"2019-07-18T00:13:33.246Z"}
 {"level":"info","message":"> App running on port 3001","timestamp":"2019-07-18T00:18:18.186Z"}
 {"level":"info","message":"> Connected to mongodb://127.0.0.1/blog...","timestamp":"2019-07-18T00:18:18.236Z"}
+{"message":"Blog validation failed: author: Path `author` is required.","errors":{"author":{"message":"Path `author` is required.","name":"ValidatorError","properties":{"message":"Path `author` is required.","type":"required","path":"author"},"kind":"required","path":"author"}},"_message":"Blog validation failed","stack":"ValidationError: Blog validation failed: author: Path `author` is required.\n    at new ValidationError (/home/wayne/Dev/liveCode/blog-api/node_modules/mongoose/lib/error/validation.js:30:11)\n    at model.Document.invalidate (/home/wayne/Dev/liveCode/blog-api/node_modules/mongoose/lib/document.js:2291:32)\n    at p.doValidate.skipSchemaValidators (/home/wayne/Dev/liveCode/blog-api/node_modules/mongoose/lib/document.js:2140:17)\n    at /home/wayne/Dev/liveCode/blog-api/node_modules/mongoose/lib/schematype.js:1037:9\n    at processTicksAndRejections (internal/process/task_queues.js:79:9)","name":"ValidationError","level":"error","timestamp":"2019-07-18T00:18:57.580Z"}
+{"message":"Blog validation failed: author: Path `author` is required.","errors":{"author":{"message":"Path `author` is required.","name":"ValidatorError","properties":{"message":"Path `author` is required.","type":"required","path":"author"},"kind":"required","path":"author"}},"_message":"Blog validation failed","stack":"ValidationError: Blog validation failed: author: Path `author` is required.\n    at new ValidationError (/home/wayne/Dev/liveCode/blog-api/node_modules/mongoose/lib/error/validation.js:30:11)\n    at model.Document.invalidate (/home/wayne/Dev/liveCode/blog-api/node_modules/mongoose/lib/document.js:2291:32)\n    at p.doValidate.skipSchemaValidators (/home/wayne/Dev/liveCode/blog-api/node_modules/mongoose/lib/document.js:2140:17)\n    at /home/wayne/Dev/liveCode/blog-api/node_modules/mongoose/lib/schematype.js:1037:9\n    at processTicksAndRejections (internal/process/task_queues.js:79:9)","name":"ValidationError","level":"error","timestamp":"2019-07-18T00:28:06.721Z"}
+{"level":"info","message":"> App running on port 3001","timestamp":"2019-07-18T00:43:02.857Z"}
+{"level":"info","message":"> Connected to mongodb://127.0.0.1/blog...","timestamp":"2019-07-18T00:43:02.900Z"}
+{"level":"info","message":"> App running on port 3001","timestamp":"2019-07-18T01:27:18.658Z"}
+{"level":"info","message":"> Connected to mongodb://127.0.0.1/blog...","timestamp":"2019-07-18T01:27:18.715Z"}
+{"level":"info","message":"> App running on port 3001","timestamp":"2019-07-18T01:27:37.587Z"}
+{"level":"info","message":"> Connected to mongodb://127.0.0.1/blog...","timestamp":"2019-07-18T01:27:37.638Z"}
+{"level":"info","message":"> App running on port 3001","timestamp":"2019-07-18T01:40:24.526Z"}
+{"level":"info","message":"> Connected to mongodb://127.0.0.1/blog...","timestamp":"2019-07-18T01:40:24.570Z"}
+{"level":"info","message":"> App running on port 3001","timestamp":"2019-07-18T02:38:19.709Z"}
+{"level":"info","message":"> Connected to mongodb://127.0.0.1/blog...","timestamp":"2019-07-18T02:38:19.772Z"}
+{"level":"info","message":"> App running on port 3001","timestamp":"2019-07-18T03:05:45.308Z"}
+{"level":"info","message":"> Connected to mongodb://127.0.0.1/blog...","timestamp":"2019-07-18T03:05:45.362Z"}
+{"level":"info","message":"> App running on port 3001","timestamp":"2019-07-18T03:05:47.293Z"}
+{"level":"info","message":"> Connected to mongodb://127.0.0.1/blog...","timestamp":"2019-07-18T03:05:47.342Z"}
+{"level":"info","message":"> App running on port 3001","timestamp":"2019-07-18T03:23:08.088Z"}
+{"level":"info","message":"> Connected to mongodb://127.0.0.1/blog...","timestamp":"2019-07-18T03:23:08.137Z"}
+{"level":"info","message":"> App running on port 3001","timestamp":"2019-07-18T03:23:23.258Z"}
+{"level":"info","message":"> Connected to mongodb://127.0.0.1/blog...","timestamp":"2019-07-18T03:23:23.308Z"}
+{"level":"info","message":"> App running on port 3001","timestamp":"2019-07-18T03:26:45.588Z"}
+{"level":"info","message":"> Connected to mongodb://127.0.0.1/blog...","timestamp":"2019-07-18T03:26:45.649Z"}
+{"level":"info","message":"> App running on port 3001","timestamp":"2019-07-18T03:26:47.921Z"}
+{"level":"info","message":"> Connected to mongodb://127.0.0.1/blog...","timestamp":"2019-07-18T03:26:47.963Z"}
+{"level":"info","message":"> App running on port 3001","timestamp":"2019-07-18T03:28:09.524Z"}
+{"level":"info","message":"> Connected to mongodb://127.0.0.1/blog...","timestamp":"2019-07-18T03:28:09.588Z"}
+{"level":"info","message":"> App running on port 3001","timestamp":"2019-07-18T03:28:56.754Z"}
+{"level":"info","message":"> Connected to mongodb://127.0.0.1/blog...","timestamp":"2019-07-18T03:28:56.828Z"}
+{"level":"info","message":"> App running on port 3001","timestamp":"2019-07-18T03:28:58.772Z"}
+{"level":"info","message":"> Connected to mongodb://127.0.0.1/blog...","timestamp":"2019-07-18T03:28:58.817Z"}
+{"level":"info","message":"> App running on port 3001","timestamp":"2019-07-18T03:29:04.330Z"}
+{"level":"info","message":"> Connected to mongodb://127.0.0.1/blog...","timestamp":"2019-07-18T03:29:04.409Z"}
+{"level":"info","message":"> App running on port 3001","timestamp":"2019-07-18T03:29:05.851Z"}
+{"level":"info","message":"> Connected to mongodb://127.0.0.1/blog...","timestamp":"2019-07-18T03:29:05.897Z"}
+{"level":"info","message":"> App running on port 3001","timestamp":"2019-07-18T03:29:08.072Z"}
+{"level":"info","message":"> Connected to mongodb://127.0.0.1/blog...","timestamp":"2019-07-18T03:29:08.121Z"}
+{"level":"info","message":"> App running on port 3001","timestamp":"2019-07-18T03:29:09.469Z"}
+{"level":"info","message":"> Connected to mongodb://127.0.0.1/blog...","timestamp":"2019-07-18T03:29:09.527Z"}
+{"level":"info","message":"> App running on port 3001","timestamp":"2019-07-18T03:29:18.161Z"}
+{"level":"info","message":"> Connected to mongodb://127.0.0.1/blog...","timestamp":"2019-07-18T03:29:18.206Z"}
+{"level":"info","message":"> App running on port 3001","timestamp":"2019-07-18T03:30:54.753Z"}
+{"level":"info","message":"> Connected to mongodb://127.0.0.1/blog...","timestamp":"2019-07-18T03:30:54.803Z"}
+{"level":"info","message":"> App running on port 3001","timestamp":"2019-07-18T03:30:58.308Z"}
+{"level":"info","message":"> Connected to mongodb://127.0.0.1/blog...","timestamp":"2019-07-18T03:30:58.361Z"}
+{"level":"info","message":"> App running on port 3001","timestamp":"2019-07-18T03:31:14.971Z"}
+{"level":"info","message":"> Connected to mongodb://127.0.0.1/blog...","timestamp":"2019-07-18T03:31:15.034Z"}
+{"level":"info","message":"> App running on port 3001","timestamp":"2019-07-18T03:31:16.547Z"}
+{"level":"info","message":"> Connected to mongodb://127.0.0.1/blog...","timestamp":"2019-07-18T03:31:16.589Z"}
+{"level":"info","message":"> App running on port 3001","timestamp":"2019-07-18T03:31:41.616Z"}
+{"level":"info","message":"> Connected to mongodb://127.0.0.1/blog...","timestamp":"2019-07-18T03:31:41.660Z"}
+{"level":"info","message":"> App running on port 3001","timestamp":"2019-07-18T03:35:15.368Z"}
+{"level":"info","message":"> Connected to mongodb://127.0.0.1/blog...","timestamp":"2019-07-18T03:35:15.421Z"}
+{"level":"info","message":"> App running on port 3001","timestamp":"2019-07-18T03:35:19.318Z"}
+{"level":"info","message":"> Connected to mongodb://127.0.0.1/blog...","timestamp":"2019-07-18T03:35:19.371Z"}
+{"level":"info","message":"> App running on port 3001","timestamp":"2019-07-18T03:35:25.922Z"}
+{"level":"info","message":"> Connected to mongodb://127.0.0.1/blog...","timestamp":"2019-07-18T03:35:25.969Z"}
+{"level":"info","message":"> App running on port 3001","timestamp":"2019-07-18T03:35:33.637Z"}
+{"level":"info","message":"> Connected to mongodb://127.0.0.1/blog...","timestamp":"2019-07-18T03:35:33.683Z"}
+{"level":"info","message":"> App running on port 3001","timestamp":"2019-07-18T03:35:35.322Z"}
+{"level":"info","message":"> Connected to mongodb://127.0.0.1/blog...","timestamp":"2019-07-18T03:35:35.365Z"}
+{"message":"_ is not defined","stack":"ReferenceError: _ is not defined\n    at exports.create (/home/wayne/Dev/liveCode/blog-api/components/users/controllers/index.js:28:42)\n    at processTicksAndRejections (internal/process/task_queues.js:86:5)","level":"error","timestamp":"2019-07-18T03:38:21.132Z"}
+{"message":"_ is not defined","stack":"ReferenceError: _ is not defined\n    at exports.create (/home/wayne/Dev/liveCode/blog-api/components/users/controllers/index.js:28:42)\n    at processTicksAndRejections (internal/process/task_queues.js:86:5)","level":"error","timestamp":"2019-07-18T03:41:38.764Z"}
+{"level":"info","message":"> App running on port 3001","timestamp":"2019-07-18T03:44:23.193Z"}
+{"level":"info","message":"> Connected to mongodb://127.0.0.1/blog...","timestamp":"2019-07-18T03:44:23.239Z"}
+{"level":"info","message":"> App running on port 3001","timestamp":"2019-07-18T03:46:35.383Z"}
+{"level":"info","message":"> App running on port 3001","timestamp":"2019-07-18T03:46:36.601Z"}
+{"level":"info","message":"> Connected to mongodb://127.0.0.1/blog...","timestamp":"2019-07-18T03:46:36.641Z"}
+{"level":"info","message":"> App running on port 3001","timestamp":"2019-07-18T03:46:40.284Z"}
+{"level":"info","message":"> Connected to mongodb://127.0.0.1/blog...","timestamp":"2019-07-18T03:46:40.326Z"}
+{"message":"Cannot read property '_id' of undefined","stack":"TypeError: Cannot read property '_id' of undefined\n    at exports.create (/home/wayne/Dev/liveCode/blog-api/components/blog/controllers/index.js:26:22)\n    at newFn (/home/wayne/Dev/liveCode/blog-api/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/home/wayne/Dev/liveCode/blog-api/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/wayne/Dev/liveCode/blog-api/node_modules/express/lib/router/route.js:137:13)\n    at next (/home/wayne/Dev/liveCode/blog-api/node_modules/express/lib/router/route.js:131:14)\n    at Route.dispatch (/home/wayne/Dev/liveCode/blog-api/node_modules/express/lib/router/route.js:112:3)\n    at newFn (/home/wayne/Dev/liveCode/blog-api/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/home/wayne/Dev/liveCode/blog-api/node_modules/express/lib/router/layer.js:95:5)\n    at /home/wayne/Dev/liveCode/blog-api/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/home/wayne/Dev/liveCode/blog-api/node_modules/express/lib/router/index.js:335:12)\n    at next (/home/wayne/Dev/liveCode/blog-api/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/home/wayne/Dev/liveCode/blog-api/node_modules/express/lib/router/index.js:174:3)\n    at router (/home/wayne/Dev/liveCode/blog-api/node_modules/express/lib/router/index.js:47:12)\n    at newFn (/home/wayne/Dev/liveCode/blog-api/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/home/wayne/Dev/liveCode/blog-api/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/home/wayne/Dev/liveCode/blog-api/node_modules/express/lib/router/index.js:317:13)","level":"error","timestamp":"2019-07-18T03:47:07.479Z"}
+{"level":"info","message":"> App running on port 3001","timestamp":"2019-07-18T03:47:41.853Z"}
+{"level":"info","message":"> Connected to mongodb://127.0.0.1/blog...","timestamp":"2019-07-18T03:47:41.933Z"}
+{"level":"info","message":"> App running on port 3001","timestamp":"2019-07-18T03:47:48.969Z"}
+{"level":"info","message":"> Connected to mongodb://127.0.0.1/blog...","timestamp":"2019-07-18T03:47:49.024Z"}
+{"message":"Cannot read property '_id' of undefined","stack":"TypeError: Cannot read property '_id' of undefined\n    at exports.create (/home/wayne/Dev/liveCode/blog-api/components/blog/controllers/index.js:28:22)\n    at newFn (/home/wayne/Dev/liveCode/blog-api/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/home/wayne/Dev/liveCode/blog-api/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/wayne/Dev/liveCode/blog-api/node_modules/express/lib/router/route.js:137:13)\n    at next (/home/wayne/Dev/liveCode/blog-api/node_modules/express/lib/router/route.js:131:14)\n    at Route.dispatch (/home/wayne/Dev/liveCode/blog-api/node_modules/express/lib/router/route.js:112:3)\n    at newFn (/home/wayne/Dev/liveCode/blog-api/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/home/wayne/Dev/liveCode/blog-api/node_modules/express/lib/router/layer.js:95:5)\n    at /home/wayne/Dev/liveCode/blog-api/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/home/wayne/Dev/liveCode/blog-api/node_modules/express/lib/router/index.js:335:12)\n    at next (/home/wayne/Dev/liveCode/blog-api/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/home/wayne/Dev/liveCode/blog-api/node_modules/express/lib/router/index.js:174:3)\n    at router (/home/wayne/Dev/liveCode/blog-api/node_modules/express/lib/router/index.js:47:12)\n    at newFn (/home/wayne/Dev/liveCode/blog-api/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/home/wayne/Dev/liveCode/blog-api/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/home/wayne/Dev/liveCode/blog-api/node_modules/express/lib/router/index.js:317:13)","level":"error","timestamp":"2019-07-18T03:47:55.334Z"}
+{"level":"info","message":"> App running on port 3001","timestamp":"2019-07-18T03:49:43.983Z"}
+{"level":"info","message":"> Connected to mongodb://127.0.0.1/blog...","timestamp":"2019-07-18T03:49:44.036Z"}
+{"level":"info","message":"> App running on port 3001","timestamp":"2019-07-18T04:53:09.840Z"}
+{"level":"info","message":"> Connected to mongodb://127.0.0.1/blog...","timestamp":"2019-07-18T04:53:09.919Z"}
+{"message":"Cannot read property '_id' of undefined","stack":"TypeError: Cannot read property '_id' of undefined\n    at exports.create (/home/wayne/Dev/liveCode/blog-api/components/blog/controllers/index.js:26:22)\n    at newFn (/home/wayne/Dev/liveCode/blog-api/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/home/wayne/Dev/liveCode/blog-api/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/wayne/Dev/liveCode/blog-api/node_modules/express/lib/router/route.js:137:13)\n    at next (/home/wayne/Dev/liveCode/blog-api/node_modules/express/lib/router/route.js:131:14)\n    at Route.dispatch (/home/wayne/Dev/liveCode/blog-api/node_modules/express/lib/router/route.js:112:3)\n    at newFn (/home/wayne/Dev/liveCode/blog-api/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/home/wayne/Dev/liveCode/blog-api/node_modules/express/lib/router/layer.js:95:5)\n    at /home/wayne/Dev/liveCode/blog-api/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/home/wayne/Dev/liveCode/blog-api/node_modules/express/lib/router/index.js:335:12)\n    at next (/home/wayne/Dev/liveCode/blog-api/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/home/wayne/Dev/liveCode/blog-api/node_modules/express/lib/router/index.js:174:3)\n    at router (/home/wayne/Dev/liveCode/blog-api/node_modules/express/lib/router/index.js:47:12)\n    at newFn (/home/wayne/Dev/liveCode/blog-api/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/home/wayne/Dev/liveCode/blog-api/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/home/wayne/Dev/liveCode/blog-api/node_modules/express/lib/router/index.js:317:13)","level":"error","timestamp":"2019-07-18T04:53:24.952Z"}
+{"level":"info","message":"> App running on port 3001","timestamp":"2019-07-18T05:00:25.368Z"}
+{"level":"info","message":"> Connected to mongodb://127.0.0.1/blog...","timestamp":"2019-07-18T05:00:25.424Z"}
+{"level":"info","message":"> App running on port 3001","timestamp":"2019-07-18T05:00:31.147Z"}
+{"level":"info","message":"> Connected to mongodb://127.0.0.1/blog...","timestamp":"2019-07-18T05:00:31.201Z"}
+{"level":"info","message":"> App running on port 3001","timestamp":"2019-07-18T05:00:43.193Z"}
+{"level":"info","message":"> Connected to mongodb://127.0.0.1/blog...","timestamp":"2019-07-18T05:00:43.244Z"}
+{"level":"info","message":"> App running on port 3001","timestamp":"2019-07-18T05:00:47.760Z"}
+{"level":"info","message":"> Connected to mongodb://127.0.0.1/blog...","timestamp":"2019-07-18T05:00:47.804Z"}
+{"level":"info","message":"> App running on port 3001","timestamp":"2019-07-18T05:01:49.723Z"}
+{"level":"info","message":"> Connected to mongodb://127.0.0.1/blog...","timestamp":"2019-07-18T05:01:49.775Z"}
+{"level":"info","message":"> App running on port 3001","timestamp":"2019-07-18T05:01:55.323Z"}
+{"level":"info","message":"> Connected to mongodb://127.0.0.1/blog...","timestamp":"2019-07-18T05:01:55.362Z"}
+{"level":"info","message":"> App running on port 3001","timestamp":"2019-07-18T05:01:59.731Z"}
+{"level":"info","message":"> Connected to mongodb://127.0.0.1/blog...","timestamp":"2019-07-18T05:01:59.776Z"}
+{"level":"info","message":"> App running on port 3001","timestamp":"2019-07-18T05:02:02.073Z"}
+{"level":"info","message":"> Connected to mongodb://127.0.0.1/blog...","timestamp":"2019-07-18T05:02:02.121Z"}
+{"level":"info","message":"> App running on port 3001","timestamp":"2019-07-18T05:02:24.302Z"}
+{"level":"info","message":"> Connected to mongodb://127.0.0.1/blog...","timestamp":"2019-07-18T05:02:24.362Z"}
+{"level":"info","message":"> App running on port 3001","timestamp":"2019-07-18T05:03:41.642Z"}
+{"level":"info","message":"> Connected to mongodb://127.0.0.1/blog...","timestamp":"2019-07-18T05:03:41.683Z"}
+{"level":"info","message":"> App running on port 3001","timestamp":"2019-07-18T05:03:58.311Z"}
+{"level":"info","message":"> Connected to mongodb://127.0.0.1/blog...","timestamp":"2019-07-18T05:03:58.369Z"}
+{"level":"info","message":"> App running on port 3001","timestamp":"2019-07-18T05:04:16.715Z"}
+{"level":"info","message":"> Connected to mongodb://127.0.0.1/blog...","timestamp":"2019-07-18T05:04:16.781Z"}
+{"level":"info","message":"> App running on port 3001","timestamp":"2019-07-18T05:04:18.846Z"}
+{"level":"info","message":"> Connected to mongodb://127.0.0.1/blog...","timestamp":"2019-07-18T05:04:18.898Z"}

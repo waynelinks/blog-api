@@ -61,7 +61,8 @@ const validate = user => {
     password: Joi.string()
       .min(5)
       .max(255)
-      .required()
+      .required(),
+    isAdmin: Joi.boolean()
   }
 
   return Joi.validate(user, schema)
