@@ -1057,3 +1057,10 @@
 {"level":"info","message":"> Connected to mongodb://127.0.0.1/blog...","timestamp":"2019-07-18T00:05:28.745Z"}
 {"level":"info","message":"> App running on port 3001","timestamp":"2019-07-18T00:05:33.856Z"}
 {"level":"info","message":"> Connected to mongodb://127.0.0.1/blog...","timestamp":"2019-07-18T00:05:33.904Z"}
+{"level":"info","message":"> App running on port 3001","timestamp":"2019-07-18T00:06:19.165Z"}
+{"level":"info","message":"> Connected to mongodb://127.0.0.1/blog...","timestamp":"2019-07-18T00:06:19.220Z"}
+{"message":"_ is not defined","stack":"ReferenceError: _ is not defined\n    at exports.create (/home/wayne/Dev/liveCode/blog-api/components/users/controllers/index.js:28:42)\n    at processTicksAndRejections (internal/process/task_queues.js:86:5)","level":"error","timestamp":"2019-07-18T00:08:26.324Z"}
+{"level":"info","message":"> App running on port 3001","timestamp":"2019-07-18T00:09:56.060Z"}
+{"level":"info","message":"> Connected to mongodb://127.0.0.1/blog...","timestamp":"2019-07-18T00:09:56.125Z"}
+{"level":"info","message":"> App running on port 3001","timestamp":"2019-07-18T00:10:20.787Z"}
+{"level":"info","message":"> Connected to mongodb://127.0.0.1/blog...","timestamp":"2019-07-18T00:10:20.835Z"}
